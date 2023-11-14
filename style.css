@@ -1,0 +1,141 @@
+body{
+    padding:0;
+    box-sizing:border-box;
+    width: 100%;    
+}
+#home,
+#about,
+#Publications,
+#project {
+    margin: 20px;
+}
+
+li{
+    font-size: larger;
+    padding: 2%;
+    padding-left: 0%;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+    /* color: black; */
+    text-decoration: underline;
+    transition: .1s;
+}
+
+section{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#navbar{
+    position:sticky;
+    background-color: white;
+    top:0;
+    z-index:10;
+}
+
+
+#b1:hover,#b2:hover{
+    background-color: black;
+    color:white;
+}
+#b1,#b2 {
+    margin-top: 50%;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-color: black;
+}
+
+#about{
+    margin-bottom: -3%;
+}
+img{
+    height: 200px;
+    
+}
+#project .card {
+    height: 500px; /* Adjust the height as needed */
+}
+
+.card-body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 60%; 
+}
+#Publications .card {
+    margin-bottom: 10px;
+}
+/* #Publications .card {
+    margin-bottom: 20px; 
+    height: auto; 
+    border: 1px solid #ccc; 
+    padding: 5px; 
+} */
+
+#Publications .card img {
+    width: 100%; /* Allow the image to adjust its width */
+    max-height: 150px; /* Set a maximum height for the image */
+    border: 1px solid #ddd;
+    padding: 5px;
+    max-width: 270px; 
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+
+/* #Publications .card img {
+    object-fit: cover;
+    max-height: calc(100% - 10px);
+    width: auto;
+} */
+
+#Publications .card-body {
+    padding: 5px;
+}
+
+#Publications .card-title,
+#Publications .card-text {
+    margin-bottom: 0;
+}
+
+#ab,#pro,#about{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+} 
+
+body{
+    font-family: 'Arial', sans-serif;
+
+}
+
+span{
+    font-weight: bolder;
+    color:blue;
+}
+
+#project img{
+    max-height: 180px;
+}
