@@ -9,7 +9,18 @@ body{
 #project {
     margin: 20px;
 }
-
+#res{
+    filter: blur(0.8px);
+    object-fit: fill;
+    opacity: 70%;
+}
+#res:hover{
+    transform: scale(1.1,1.1);
+    transition: .5s ease;
+    opacity: 100%;
+    cursor: pointer;
+    filter: blur(0px);
+}
 li{
     font-size: larger;
     padding: 2%;
@@ -40,12 +51,11 @@ section{
     z-index:10;
 }
 
-
-#b1:hover,#b2:hover{
+#b2:hover{
     background-color: black;
     color:white;
 }
-#b1,#b2 {
+#b2 {
     margin-top: 50%;
     padding: 5px;
     background-color: blue;
